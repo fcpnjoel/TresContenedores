@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.primero, .segundo, .tercero {
+    background-color: blue;
+    height: 800px;
+    width: 380px;
+    padding: 20px;
+}
+
+.primero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.primero .uno, .primero .tres {
+    /* background-color: skyblue; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.primero .dos {
+    /* background-color: pink; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.primero .uno .r,.primero .uno .g,.primero .uno .b, .primero .tres .r, .primero .tres .g, .primero .tres .b{
+    background-color: red;
+    height: 100%;
+    width: 100px;
+}
+.primero .dos .r, .primero .dos .g, .primero .dos .b{
+    background-color: yellow;
+    width: 100%;
+    height: 100px;
+} 
+
+
+
+
+.segundo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.segundo .a, .segundo .b, .segundo .c, .segundo .d{
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+.tercero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tercero .uno {
+    /* background-color: skyblue; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.tercero .uno .r, .tercero .uno .g, .tercero .uno .b{
+    background-color: red;
+    height: 100%;
+    width: 100px;
+}
+
+
+
+
+
+
